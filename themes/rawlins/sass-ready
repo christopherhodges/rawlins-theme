@@ -1,0 +1,4 @@
+#!/usr/bin/expect
+
+spawn sass --watch style.scss:style.css;
+interact

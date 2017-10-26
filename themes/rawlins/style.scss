@@ -1,0 +1,35 @@
+/*!
+Theme Name: CBH
+Theme URI: https://github.com/christopherhodges
+Author: Christopher Hodges
+Author URI: https://github.com/christopherhodges
+Description: Standard starter theme utilizing gulp created by Christopher Hodges
+Version:      1.0.0
+*/
+
+// Reset
+@import 'css/reset.scss';
+
+// Bootstrap
+@import 'css/bootstrap__variables.scss';
+@import 'css/config.scss';
+@import 'bootstrap/stylesheets/_bootstrap.scss';
+
+// Typography ( all the base font items - families, sizes, paddings, line-heights, etc. )
+@import 'css/typography.scss';
+
+// Layout ( grid, wrappers, etc - including media queries )
+@import 'css/layout.scss';
+
+// Globals ( any classes or elements that are commonly used, like .button or .icon )
+@import 'css/globals.scss';
+@import 'css/entry-content.scss';
+
+// Modules ( anything shared cross template )
+
+
+// Templates ( template-name.scss - including media queries. You can override base module styles here too )
+@import 'css/template-default.scss';
+
+// Custom ( don't use this unless you have to. This is for anything that doesn't fit anywhere else, which should be nothing )
+@import 'css/custom.scss';
